@@ -1,0 +1,26 @@
+{
+  "name": "cov19",
+  "version": "1.0.0",
+  "description": "Varun initiative",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js"
+  },
+  "engines": {
+    "node": "8.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/varselva/cov19.git"
+  },
+  "author": "Varun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/varselva/cov19/issues"
+  },
+  "homepage": "https://github.com/varselva/cov19#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
