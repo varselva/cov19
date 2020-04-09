@@ -65,3 +65,7 @@ function showSlides4(n) {
   }
   slides4[slideIndex-1].style.display = "block";
 }
+
+function sendMail() {
+  document.getElementById("sendmail").submit();
+}

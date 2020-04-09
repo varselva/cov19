@@ -1,7 +1,7 @@
 {
   "name": "cov19",
   "version": "1.0.0",
-  "description": "Varun initiative",
+  "description": "Fundraiser Face Shield",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -14,7 +14,7 @@
     "type": "git",
     "url": "git+https://github.com/varselva/cov19.git"
   },
-  "author": "Varun",
+  "author": "Varun Selvaraj",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/varselva/cov19/issues"

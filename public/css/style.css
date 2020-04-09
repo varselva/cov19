@@ -105,7 +105,7 @@ p a:hover {
 	background: #ffffff;
 }
 #body div.header {
-	height: 620px;
+	height: 820px;
 }
 #body div.header div {
 	position: relative;
@@ -498,16 +498,21 @@ p a:hover {
 	border-top: 1px solid #b8d0aa;
 }
 #footer div {
-	height: 174px;
+	height: 310px;
 	overflow: hidden;
 }
 #footer div div {
 	border-left: 1px solid #b8d0aa;
 	float: left;
-	height: 134px;
+	height: 290px;
 	padding: 20px 20px;
-	width: 180px;
+	width: 240px;
 }
+
+#footer div div ul li {
+	margin-left: 20px;
+}
+
 #footer div div:first-child {
 	border: none;
 }
@@ -533,6 +538,32 @@ p a:hover {
 #footer div div a:hover {
 	color: #4b4b4f;
 }
+
+.contactDiv{
+	height: auto !important;
+    color: #4b4b4f;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 600;
+    border: none !important;
+    border-left: 0px solid transparent;
+	padding: 5px !important;
+	width: 280px !important;
+}
+
+.contactCard{
+	margin-top:20px;
+	margin-left:25px;
+	padding:5px;
+	font-size: 16px;
+    font-weight: 600;
+	color: #4b4b4f;
+}
+
+#body div#content p.contactItem{
+	padding: 0px !important;
+}
+
 #footer div div a#mail {
 	background: url(../images/icons.png) no-repeat;
 	height: 14px;
@@ -609,7 +640,7 @@ p a:hover {
 	font-size:16px;
 	color: #4b4b4b;
 	max-width:600px;
-	margin-top: 20px;
+	margin-top: 10px;
 }
 
 .justfiedTextBlock{
@@ -643,6 +674,35 @@ ul.subListPad li{
 
 .liSmallText{
 	font-size:14px;
+}
+
+div.slideshow-container img{
+	max-width:200px;
+	max-height:200px;
+	min-height:200px;
+	min-width: 200px;;
+}
+
+.pointSubHeading{
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.manuAbout{
+	font-size: 18px;
+	color: #4b4b4b;
+	font-weight: 600;
+	margin-top:35px;
+	margin-left:10px;
+	margin-right:10px;
+}
+
+.manuBelow{
+	font-size: 14px;
+	color: #4b4b4b;
+	font-weight: 400;
+	margin-left:10px;
+	margin-right:10px;
 }
 
 /* Slideshow container */
@@ -737,4 +797,13 @@ ul.subListPad li{
   .prev, .next,.text {font-size: 11px}
 }
 
+.donateHolder{
+	width:100%;
+	margin-top:30px;
+}
 
+.donateSub{
+	width: 50%;
+	display:inline-block;
+	float: left;
+}
